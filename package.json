@@ -1,6 +1,10 @@
 {
-  "name": "canvas-vscode",
-  "displayName": "canvas-vscode",
+  "name": "canvas-vscode-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/localghost385/canvas-vscode-theme"
+  },
+  "displayName": "canvas-vscode-theme",
   "description": "a canvas vscode theme",
   "version": "0.0.1",
   "engines": {
@@ -12,7 +16,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "canvas",
+        "label": "Canvas",
         "uiTheme": "vs",
         "path": "./themes/canvas-color-theme.json"
       }

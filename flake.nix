@@ -17,6 +17,8 @@
             
             pkgs.yarn
 
+            pkgs.vsce
+
             pkgs.nodePackages.typescript
             pkgs.nodePackages.typescript-language-server
           ];
